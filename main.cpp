@@ -12,8 +12,7 @@ int main()
 
   v.pop();
 
-  for(int i=0;i<v.size();i++)
-    cout<<v[i]<<endl;
+
 
   cout<<v.size()<<endl;
     cout<<v.top()<<endl;
