@@ -10,7 +10,7 @@ class stack
 	bool empty();
 	int size();
 	int top();
-    int& operator[](const int& idx);
+    
 
 	private:
         int sz,cp;
