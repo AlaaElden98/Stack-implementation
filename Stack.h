@@ -1,16 +1,24 @@
-#ifndef STACK_H
-#define STACK_H
-
-
-class Stack
+#ifndef SATCK_H
+#define SATCK_H
+using namespace std;
+class stack
 {
     public:
-        Stack();
-        virtual ~Stack();
+        stack();
+      void push(int v);
+	void pop();
+	bool empty();
+	int size();
+	int top();
+    int& operator[](const int& idx);
 
-    protected:
+	private:
+        int sz,cp;
+        void duplicate();
+        int* arr;
 
-    private:
+
+
 };
 
-#endif // STACK_H
+#endif // SATCK_H
