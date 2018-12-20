@@ -38,6 +38,4 @@ bool stack::empty(){
 int stack::size(){
 return sz;
 }
-int& stack :: operator[](const int& idx){
-    return arr[idx];
-}
+
